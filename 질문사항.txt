@@ -2,3 +2,16 @@
 
 
 width가 비율로 줄어드는 것에 비해 폰트의 너비가 비율로 줄어드는 비율이 더 작다. 이를 해결할 방법은? 아마 없음...
+
+
+fullpage에서 section 의 하위 태그에 높이를 fullpage처럼 화면 전체에 맞추는 방법?
+
+fullpage의 slide 기능도 다른 carousel slide js 처럼 버튼 바꾸고 등등의 자유로운 기능이 가능한가?
+fullpage의 slide를 section 바로 아래가 아니라 더 하위에 적용했더니 문제가 발생하였다..
+
+fullpage 하위 태그에 slickslide를 적용했는데 안 됨
+
+
+fullpage에서 max-width와 함께 적용한 margin:0 auto;가 적용이 안되는 이유는?
+
+topbar를 position:fixed한 상태에서 풀페이지의 section을 탑바 아래에 붙게 배치하고 싶은데 겹친다.

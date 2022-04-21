@@ -28,6 +28,9 @@ ul,li{
 
 /* Library */
 
+.wrap{
+    width:100%;
+}
 .con{
     max-width:1280px;
     margin:0 auto;
@@ -49,7 +52,7 @@ ul,li{
     background-color:#dc2f34;
 }
 .bgcolor_ivory{
-    background-color:linear-gradient(to bottom, #FFFCF8, #FFECD3);
+    background:linear-gradient(to bottom, #FFFCF8, #FFECD3);
 }
 .bgcolor_yellow{
     background-color:#FFED93;
@@ -60,10 +63,10 @@ ul,li{
 .color_white{
     color:white;
 }
-.color_black_title{
+.color_black{
     color:#333;
 }
-.color_black_sub{
+.color_grey{
     color:#777;
 }
 .color_red{
@@ -71,9 +74,6 @@ ul,li{
 }
 .font_bold{
     font-weight:bold;
-}
-.wrap{
-    width:100%;
 }
 .box_image{
     background-position:center;
@@ -93,15 +93,16 @@ ul,li{
 /* Style */
 
 /* .wrap_topbar start */
-.box_topbar{
+.wrap_topbar{
+    position:fixed;
+    z-index:9999;
+}
+.wrap_topbar > .box_topbar{
     display:flex;
-    background-color:black;
 }
 .wrap_topbar > .box_topbar > .box_logo{
     margin:calc((100%/1200)*8) 0;
-    /* width:calc((100%/1280)*242); */
     flex:242 1 0%;
-    background-color:green;
 }
 .wrap_topbar > .box_topbar > .box_logo > .icon_logo{
     width:100%;
@@ -118,7 +119,6 @@ ul,li{
     width:calc((100%/1200)*588);
     border-bottom:2px solid white;
     box-sizing:border-box;
-    background-color:green;
 }
 .wrap_topbar > .box_topbar > .box_search > form{
     width:100%;
@@ -151,20 +151,17 @@ ul,li{
 }
 .wrap_topbar > .box_topbar > .box_navigation{
     margin : calc((100%/1200)*30) 0;
-    /* width: calc((100%/1280)*304); */
     flex:288 1 0%;
 }
 .wrap_topbar > .box_topbar > .box_navigation > ul{
     display:flex;
     justify-content:space-between;
-    background-color:green;
 }
 .wrap_topbar > .box_topbar > .box_navigation > ul > li{
     padding:0 calc((100%/304)*8);
     font-size:1rem;
     line-height:calc(20/16);
     border-right:1px solid white;
-    /* white-space:nowrap; */
 }
 .wrap_topbar > .box_topbar > .box_navigation > ul > li:first-child{
     padding-left:0;
@@ -176,7 +173,58 @@ ul,li{
 }
 /* .wrap_topbar end */
 
+/* .wrap_mainvisual start */
 
+.wrap_fullpage > .wrap_mainvisual{
+    background-color:salmon;
+}
+.wrap_fullpage > .wrap_mainvisual .box_mainvisual{
+    width: 100%;
+}
+.wrap_fullpage > .wrap_mainvisual .box_mainvisual > .box_slide{
+    width: 100%;
+}
+.wrap_fullpage > .wrap_mainvisual .box_mainvisual > .box_slide .slide_slick{
+    width:100%;
+}
+.wrap_fullpage > .wrap_mainvisual .box_mainvisual > .box_slide .slide01{
+    background-color:blue;
+}
+.wrap_fullpage > .wrap_mainvisual .box_mainvisual > .box_slide .slide01{
+    background-color:green;
+}
+.wrap_fullpage > .wrap_mainvisual .box_mainvisual > .box_slide .slide01{
+    background-color:yellowgreen;
+}
+
+/* .wrap_mainvisual end */
+
+/* modulation for .box_layer_title start*/
+
+.box_layer_title{
+    width: 100%;
+
+    background-color:pink;
+    height: 500px;
+}
+
+/* modulation for .box_layer_title end */
+
+
+/* .wrap_section01 start */
+
+.wrap_fullpage > .wrap_section01 .box_section01{
+    max-width:1280px;
+    margin:0 auto;
+    background-color:black;
+    height: 800px;
+}
+
+/* .wrap_section02 start */
+
+
+
+/* .wrap_section02 end */
 
 /* mediaquery start */
 
