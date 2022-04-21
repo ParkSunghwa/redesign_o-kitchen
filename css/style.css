@@ -1,0 +1,196 @@
+/* font registration */
+@font-face {
+    font-family: 'SuncheonB';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/SuncheonB.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SuncheonR';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/SuncheonR.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Normalizing */
+*{
+    margin:0;
+    padding:0;
+    font-family : 'SuncheonR';
+}
+a{
+    color:inherit;
+    text-decoration: none;
+}
+ul,li{
+    list-style:none;
+}
+
+/* Library */
+
+.con{
+    max-width:1280px;
+    margin:0 auto;
+    padding: 0 40px;
+}
+.row::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+.cell{
+    float:left;
+}
+.cell_r{
+    float:right;
+}
+.bgcolor_red{
+    background-color:#dc2f34;
+}
+.bgcolor_ivory{
+    background-color:linear-gradient(to bottom, #FFFCF8, #FFECD3);
+}
+.bgcolor_yellow{
+    background-color:#FFED93;
+}
+.bgcolor_white{
+    background-color:white;
+}
+.color_white{
+    color:white;
+}
+.color_black_title{
+    color:#333;
+}
+.color_black_sub{
+    color:#777;
+}
+.color_red{
+    color:#dc2f34;
+}
+.font_bold{
+    font-weight:bold;
+}
+.wrap{
+    width:100%;
+}
+.box_image{
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.box_image > img{
+    width: 100%;
+}
+.align_center{
+    text-align:center;
+}
+
+/* flex:flex-grow flex-shrink flex-basis */
+
+
+/* Style */
+
+/* .wrap_topbar start */
+.box_topbar{
+    display:flex;
+    background-color:black;
+}
+.wrap_topbar > .box_topbar > .box_logo{
+    margin:calc((100%/1280)*8) 0;
+    /* width:calc((100%/1280)*242); */
+    flex:242 1 0%;
+    background-color:green;
+}
+.wrap_topbar > .box_topbar > .box_logo > .icon_logo{
+    width:100%;
+}
+.wrap_topbar > .box_topbar > .box_logo > .icon_logo > img{
+    width:100%;
+}
+.wrap_topbar > .box_topbar > .box_search{
+    margin: calc((100%/1280)*16) 0;
+    margin-left : calc((100%/1280)*64);
+    margin-right: calc((100%/1280)*20);
+    width:calc((100%/1280)*588);
+}
+.wrap_topbar > .box_topbar > .box_search > form{
+    width:100%;
+    position:relative;
+}
+.wrap_topbar > .box_topbar > .box_search > form > .input_search{
+    background:transparent;
+    width:100%;
+    font-size:calc((1rem/16)*22);
+    line-height:calc(48/22);
+    border:0px;
+    border-bottom:2px solid white;
+    box-sizing:border-box;
+}
+.wrap_topbar > .box_topbar > .box_search > form > .input_search::placeholder{
+    color:white;
+}
+.wrap_topbar > .box_topbar > .box_search > form > .button_search{
+    background:transparent;
+    background-image:url("../images/01topbar/icon_search.png");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width:calc((100%/588)*40);
+    height: 0;
+    padding-bottom:calc((100%/588)*42);
+    border:0;
+    position:absolute;
+    top:0;
+    right:calc((100%/588)*8);
+    cursor:pointer;
+}
+.wrap_topbar > .box_topbar > .box_navigation{
+    margin : calc((100%/1280)*30) 0;
+    /* width: calc((100%/1280)*304); */
+    flex:288 1 0%;
+}
+.wrap_topbar > .box_topbar > .box_navigation > ul{
+    display:flex;
+    /* justify-content:space-between; */
+    background-color:green;
+}
+.wrap_topbar > .box_topbar > .box_navigation > ul > li{
+    padding:0 calc((100%/304)*8);
+    font-size:1rem;
+    line-height:calc(20/16);
+    border-right:1px solid white;
+}
+.wrap_topbar > .box_topbar > .box_navigation > ul > li:last-child{
+    border:0;
+}
+/* .wrap_topbar end */
+
+
+
+/* mediaquery start */
+
+@media screen and (max-width:1280px){
+    *{
+        font-size:calc((100vw/1280)*16);
+    }
+    .con{
+        max-width:1280px;
+        margin:0 auto;
+        padding:0 calc((100vw/1280)*40);
+    }
+
+    /* .wrap_topbar */
+    .wrap_topbar > .box_topbar > .box_search > form > .input_search::placeholder{
+        font-size:calc((1rem/16)*18);
+    }
+    /* .wrap_topbar > .box_topbar > .box_navigation{
+        width: calc((100%/1280)*360);
+    } */
+    .wrap_topbar > .box_topbar > .box_navigation > ul > li{
+        padding:0 calc((100%/304)*2);
+    }
+
+}
+
+/* mediaquery end */

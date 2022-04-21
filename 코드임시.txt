@@ -1,0 +1,251 @@
+<a href="#" class="content_slider slider01">
+                    <div class="box_image"></div>
+                    <div class="box_info con">
+                        <p class="text_header">
+                            <span class="text01 color_white">간편하게 완성하는</span>
+                            <span class="text02 color_white">브런치 메뉴</span>
+                        </p>
+                        <p class="text_title">
+                            <span class="text01 color_white">더치베이비<br></span>
+                            <span class="text02 color_white">팬케이크</span>
+                        </p>
+                        <div class="box_hashtag row">
+                            <div class="hashtag hashtag01 cell color_black_sub">#생일축하해</div>
+                            <div class="hashtag hashtag02 cell color_black_sub">#핫케이크</div>
+                        </div>
+                        <div class="box_button row bgcolor_lightred color_white">
+                            <span class="cell">생일테마 바로가기</span>
+                            <div class="box_image cell"></div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="content_slider slider02">
+                    <div class="box_image"></div>
+                    <div class="box_info con">
+                        <p class="text_header">
+                            <span class="text01 color_white">간편하지만 정성스러운 한끼!<br></span>
+                            <span class="text02 color_white">갓 지은 솥밥으로</span>
+                        </p>
+                        <p class="text_title">
+                            <span class="text01 color_white">맛있고 든든하게<br></span>
+                            <span class="text02 color_white">영양 챙기기</span>
+                        </p>
+                        <div class="box_hashtag row">
+                            <div class="hashtag hashtag01 cell color_black_sub">#채식</div>
+                            <div class="hashtag hashtag02 cell color_black_sub">#카레토마토솥밥</div>
+                        </div>
+                        <div class="box_button row bgcolor_lightred color_white">
+                            <span class="cell">레시피 바로 보기</span>
+                            <div class="box_image cell"></div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="content_slider slider03">
+                    <div class="box_image"></div>
+                    <div class="box_info con">
+                        <p class="text_header">
+                            <span class="text01 color_white">오뚜기 간편식</span>
+                            <span class="text02 color_white">이 요리가 되는 팁!</span>
+                        </p>
+                        <p class="text_title">
+                            <span class="text01 color_white">요리의 업그레이드<br></span>
+                            <span class="text02 color_white">셰프의 팁</span>
+                        </p>
+                        <div class="box_hashtag row">
+                            <div class="hashtag hashtag01 cell color_black_sub">#얼큰한</div>
+                            <div class="hashtag hashtag02 cell color_black_sub">#열라면</div>
+                            <div class="hashtag hashtag03 cell color_black_sub">#순두부열라면</div>
+                        </div>
+                        <div class="box_button row bgcolor_lightred color_white">
+                            <span class="cell">셰프의 팁 바로 보기</span>
+                            <div class="box_image cell"></div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="content_slider slider04">
+                    <div class="box_image"></div>
+                    <div class="box_info con">
+                        <p class="text_header">
+                            <span class="text01 color_white">빠르고 간편하게</span>
+                            <span class="text02 color_white">하지만 맛은 최고!</span>
+                        </p>
+                        <p class="text_title">
+                            <span class="text01 color_white">10분 내로~<br></span>
+                            <span class="text02 color_white">스피드 레시피</span>
+                        </p>
+                        <div class="box_hashtag row">
+                            <div class="hashtag hashtag01 cell color_black_sub">#XO만두</div>
+                            <div class="hashtag hashtag02 cell color_black_sub">#떡만둣국</div>
+                            <div class="hashtag hashtag03 cell color_black_sub">#뜨끈한 국물</div>
+                        </div>
+                        <div class="box_button row bgcolor_lightred color_white">
+                            <span class="cell">스피드 테마 보기</span>
+                            <div class="box_image cell"></div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="content_slider slider05">
+                    <div class="box_image"></div>
+                    <div class="box_info con">
+                        <p class="text_header">
+                            <span class="text01 color_white">쉽고 빠르게</span>
+                            <span class="text02 color_white">따라할 수 있는!</span>
+                        </p>
+                        <p class="text_title">
+                            <span class="text01 color_white">새내기 요리사<br></span>
+                            <span class="text02 color_white">초보 레시피</span>
+                        </p>
+                        <div class="box_hashtag row">
+                            <div class="hashtag hashtag01 cell color_black_sub">#토마토냉파스타</div>
+                            <div class="hashtag hashtag02 cell color_black_sub">#에그마요샌드위치</div>
+                        </div>
+                        <div class="box_button row bgcolor_lightred color_white">
+                            <span class="cell">왕초보 테마 보기</span>
+                            <div class="box_image cell"></div>
+                        </div>
+                    </div>
+                </a>
+                <a href="#" class="content_slider slider06">
+                    <div class="box_image"></div>
+                    <div class="box_info con">
+                        <p class="text_header">
+                            <span class="text01 color_black_title">향신료의 매력에</span>
+                            <span class="text02 color_black_title">푹 빠지고 싶다면?</span>
+                        </p>
+                        <p class="text_title">
+                            <span class="text01 color_black_title">허브-스파이스 전문 도서관<br></span>
+                            <span class="text02 color_black_title">라이브러리H</span>
+                        </p>
+                        <div class="box_button row bgcolor_lightred color_white">
+                            <span class="cell">자세한 이용 방법 보기</span>
+                            <div class="box_image cell"></div>
+                        </div>
+                    </div>
+                </a>
+
+
+
+
+
+
+
+.wrap_mainvisual > .mainvisual > .box_slider .content_slider{
+    display:block;
+    width: 100%;
+    position:relative;
+}
+.wrap_mainvisual > .mainvisual > .box_slider .content_slider > .box_image{
+    width: 100%;
+    height: 725px;
+}
+.wrap_mainvisual > .mainvisual > .box_slider .content_slider.slider01 > .box_image{
+    background-image:url("/images/03mainvisual/image_slide01.jpg");
+}
+.wrap_mainvisual > .mainvisual > .box_slider .content_slider.slider02 > .box_image{
+    background-image:url("/images/03mainvisual/image_slide02.jpg");
+}
+.wrap_mainvisual > .mainvisual > .box_slider .content_slider.slider03 > .box_image{
+    background-image:url("/images/03mainvisual/image_slide03.jpg");
+}
+.wrap_mainvisual > .mainvisual > .box_slider .content_slider.slider04 > .box_image{
+    background-image:url("/images/03mainvisual/image_slide04.jpg");
+}
+.wrap_mainvisual > .mainvisual > .box_slider .content_slider.slider05 > .box_image{
+    background-image:url("/images/03mainvisual/image_slide05.jpg");
+}
+.wrap_mainvisual > .mainvisual > .box_slider .content_slider.slider06 > .box_image{
+    background-image:url("/images/03mainvisual/image_slide06.jpg");
+}
+.wrap_mainvisual > .mainvisual > .box_slider .content_slider > .box_info{
+    height: 410px;
+    position:absolute;
+    top:195px;
+    left:120px;
+    z-index:999;
+}
+.wrap_mainvisual > .mainvisual > .box_slider .content_slider > .box_info > .text_header{
+    font-size:32px;
+}
+.wrap_mainvisual > .mainvisual > .box_slider .content_slider > .box_info > .text_header > .text01{
+    border-bottom:3.5px solid white;
+    box-sizing:border-box;
+    font-weight:bold;
+}
+.wrap_mainvisual > .mainvisual > .box_slider .content_slider.slider06 > .box_info > .text_header > .text01{
+    border-bottom:3.5px solid #333;
+}
+.wrap_mainvisual > .mainvisual > .box_slider .content_slider > .box_info > .text_title{
+    font-size:65px;
+    margin-top:20px;
+    line-height:70px;
+}
+.wrap_mainvisual > .mainvisual > .box_slider .content_slider.slider06 > .box_info > .text_title > .text01{
+    font-size:40px;
+}
+.wrap_mainvisual > .mainvisual > .box_slider .content_slider > .box_info > .text_title > .text02{
+    font-weight:bold;
+}
+.wrap_mainvisual > .mainvisual > .box_slider .content_slider > .box_info > .box_hashtag > .hashtag{
+    background-color:white;
+    height: 40px;
+    border-radius:20px;
+    padding:0 20px;
+    border:1px solid #ddd;
+    box-sizing:border-box;
+    margin-top:30px;
+    margin-right:5px;
+    line-height:40px;
+    font-size:20px;
+}
+.wrap_mainvisual > .mainvisual > .box_slider .content_slider > .box_info > .box_button{
+    display:block;
+    width: 255px;
+    height: 55px;
+    margin-top:100px;
+    padding:13px 40px;
+    padding-right:0;
+    border-radius:3px;
+    box-sizing:border-box;
+    font-size:18px;
+    font-weight:bold;
+}
+.wrap_mainvisual > .mainvisual > .box_slider .content_slider.slider06 > .box_info > .box_button{
+    margin-top:30px;
+}
+.wrap_mainvisual > .mainvisual > .box_slider .content_slider.slider06 > .box_info > .box_button:hover{
+    background-color:#A20A1F;
+}
+.wrap_mainvisual > .mainvisual > .box_slider .content_slider > .box_info > .box_button > .box_image{
+    background-image:url("/images/03mainvisual/arrow_iconD.png");
+    width: 15px;
+    height: 8px;
+    margin-left:20px;
+    margin-top:10px;
+}
+.wrap_mainvisual > .mainvisual > .box_button{
+    background-color:rgba(0, 0, 0, 0.5);
+    width: 120px;
+    height: 40px;
+    border-radius:20px;
+    padding:5px;
+    box-sizing:border-box;
+    position:absolute;
+    left:120px;
+    top:635px;
+}
+.wrap_mainvisual > .mainvisual > .box_button > .pause{
+    background-image:url(/images/03mainvisual/icon_pause.png);
+    width: 30px;
+    height: 30px;
+}
+.wrap_mainvisual > .mainvisual > .box_button > .page{
+    margin:0 8px;
+    line-height:30px;
+    font-size:16px;
+    font-weight:bold;
+}
+.wrap_mainvisual > .mainvisual > .box_button > .play{
+    background-image:url(/images/03mainvisual/icon_play.png);
+    width: 30px;
+    height: 30px;
+}
