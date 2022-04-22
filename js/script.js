@@ -5,9 +5,19 @@ $(document).ready(function(){
         navigation:true,
     });
 
-    // $(".wrap_fullpage > .wrap_mainvisual .box_mainvisual > .box_slide").slick({
+    // swiper-slide for .wrap_fullpage > .wrap_mainvisual > .box_mainvisual > .box_slide
 
+    const swiper = new Swiper(".swiper", {
 
-    // });
+        loop:true,
+        pagination:{
+            el: ".swiper-pagination"
+        },
+        navigation:{
+            nextEl:".swiper-button-next",
+            prevEl:".swiper-button-prev",
+        },
+    });
+
 
 });

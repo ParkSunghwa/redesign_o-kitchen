@@ -18,6 +18,9 @@
     <!-- fullpage -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.6/fullpage.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.6/fullpage.css">
+    <!-- swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
     <!-- my style&script -->
     <link rel="stylesheet" href="./css/style.css">
     <script src="./js/script.js"></script>
@@ -32,7 +35,7 @@
             <div class="box_search">
                 <form action="">
                     <input type="text" class="input_search color_white" placeholder="오뚜기 제품, 요리명 등 다양하게 검색해보세요!(예: 카레)" maxlength="30" required>
-                    <input class="button_search" type="button">
+                    <input class="button_search box_image" type="button">
                 </form>
             </div>
             <div class="box_navigation">
@@ -56,25 +59,34 @@
 
     <div class="wrap_fullpage">
 
-        <div class="wrap_mainvisual section wrap">
-            <div class="box_mainvisual">
-                <div class="box_slide">
-                    <div class="slide_slick slide01 box_image"></div>
-                    <div class="slide_slick slide01 box_image"></div>
-                    <div class="slide_slick slide01 box_image"></div>
+        <div class="wrap_mainvisual section wrap view_pc">
+            <div class="box_mainvisual box_section">
+                <!-- do not change the class name of the swiper slide -->
+                <div class="box_slide swiper">
+                    <!-- swiper needs an additional wrap -->
+                    <div class="swiper-wrapper">
+                        <a href="#" class="content_slide swiper-slide slide01">slide01</a>
+                        <a href="#" class="content_slide swiper-slide slide02">slide02</a>
+                        <a href="#" class="content_slide swiper-slide slide03">slide03</a>
+                    </div>
+                    <!-- pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- navigation -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                 </div>
                 <div class="box_button"></div>
             </div>
         </div>
     
-        <div class="wrap_section01 section wrap bgcolor_ivory">
-            <div class="box_section01">
-                <div class="box_layer_title">
+        <div class="wrap_section01 section wrap bgcolor_ivory view_pc">
+            <div class="box_section01 box_section con">
+                <div class="box_layout_title">
                     <div class="box_text">
                         <div class="box_title">
                             <span class="title color_black font_bold">추천 레시피</span>
+                            <div class="bar"></div>
                         </div>
-                        <div class="bar"></div>
                         <div class="box_explanation">
                             <span class="explanation color_grey">오뚜기가 제안하는 레시피로 최고의 순간을 만들어 보세요.</span>
                         </div>
@@ -83,11 +95,158 @@
                         </div>
                     </div>
                 </div>
+                <div class="box_layout_content">
+                    <div class="box2depth_layout_content left">
+                        <div class="box_cover_content">
+                            <a href="#" class="box_content content01 row">
+                                <div class="box_cover_image cell">
+                                    <div class="box_image"></div>
+                                </div>
+                                <div class="box_text cell bgcolor_yellow">
+                                    <div class="box_hashtag">
+                                        <span class="hashtag color_grey">#카레 #카레퐁듀 #오뚜기카레</span>
+                                    </div>
+                                    <div class="box_title">
+                                        <span class="title color_black font_bold">쿠시아게 카레퐁듀</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="box_content content02 row">
+                                <div class="box_cover_image cell">
+                                    <div class="box_image"></div>
+                                </div>
+                                <div class="box_text cell bgcolor_yellow">
+                                    <div class="box_hashtag">
+                                        <span class="hashtag color_grey">#허니머스타드 #올리고당 #마요네스</span>
+                                    </div>
+                                    <div class="box_title">
+                                        <span class="title color_black font_bold">데리야끼치킨 뚱샌드위치</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="box2depth_layout_content right">
+                        <div class="box_cover_content">
+                            <a href="#" class="box_content content01 row">
+                                <div class="box_cover_image cell">
+                                    <div class="box_image"></div>
+                                </div>
+                                <div class="box_text cell bgcolor_yellow">
+                                    <div class="box_hashtag">
+                                        <span class="hashtag color_grey">#한라봉소르베 #홈디저트 #파티메뉴</span>
+                                    </div>
+                                    <div class="box_title">
+                                        <span class="title color_black font_bold">한라봉 소르베</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="box_content content02 row">
+                                <div class="box_cover_image cell">
+                                    <div class="box_image"></div>
+                                </div>
+                                <div class="box_text cell bgcolor_yellow">
+                                    <div class="box_hashtag">
+                                        <span class="hashtag color_grey">#만두 #야식</span>
+                                    </div>
+                                    <div class="box_title">
+                                        <span class="title color_black font_bold">비빔만두</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>  
+                </div>
+                <div class="box_bgdecoration box_image"></div>
             </div>
         </div>    
     
     
-        <div class="wrap_section02 section wrap bgcolor_ivory"></div>
+        <div class="wrap_section02 section wrap bgcolor_ivory view pc">
+            <div class="box_section01 box_section con">
+                <div class="box_layout_title">
+                    <div class="box_text">
+                        <div class="box_title">
+                            <span class="title color_black font_bold">인기 레시피</span>
+                            <div class="bar"></div>
+                        </div>
+                        <div class="box_explanation">
+                            <span class="explanation color_grey">오'키친에서 많은 분들이 찾아본 인기 레시피를 소개합니다.</span>
+                        </div>
+                        <div class="box_link">
+                            <a href="#" class="link color_black">인기 레시피 보러 가기</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="box_layout_content">
+                    <div class="box2depth_layout_content left">
+                        <div class="box_cover_content">
+                            <a href="#" class="box_content content01 row">
+                                <div class="box_cover_image cell">
+                                    <div class="box_image"></div>
+                                </div>
+                                <div class="box_text cell bgcolor_yellow">
+                                    <div class="box_hashtag">
+                                        <span class="hashtag color_grey">#치즈듬뿍 #단짠단짠 #골드마요네스</span>
+                                    </div>
+                                    <div class="box_title">
+                                        <span class="title color_black font_bold">콘치즈</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="box_content content02 row">
+                                <div class="box_cover_image cell">
+                                    <div class="box_image"></div>
+                                </div>
+                                <div class="box_text cell bgcolor_yellow">
+                                    <div class="box_hashtag">
+                                        <span class="hashtag color_grey">#집밥 #밑반찬 #꿀유자차</span>
+                                    </div>
+                                    <div class="box_title">
+                                        <span class="title color_black font_bold">유자 연근조림</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="box2depth_layout_content right">
+                        <div class="box_cover_content">
+                            <a href="#" class="box_content content01 row">
+                                <div class="box_cover_image cell">
+                                    <div class="box_image"></div>
+                                </div>
+                                <div class="box_text cell bgcolor_yellow">
+                                    <div class="box_hashtag">
+                                        <span class="hashtag color_grey">#셰프의팁 #즉석국 #집밥</span>
+                                    </div>
+                                    <div class="box_title">
+                                        <span class="title color_black font_bold">육개장 칼국수</span>
+                                    </div>
+                                </div>
+                            </a>
+                            <a href="#" class="box_content content02 row">
+                                <div class="box_cover_image cell">
+                                    <div class="box_image"></div>
+                                </div>
+                                <div class="box_text cell bgcolor_yellow">
+                                    <div class="box_hashtag">
+                                        <span class="hashtag color_grey">#덮밥요리 #오뚜기햄 #골드마요네스</span>
+                                    </div>
+                                    <div class="box_title">
+                                        <span class="title color_black font_bold">햄마요덮밥</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>  
+                </div>
+                <div class="box_bgdecoration box_image"></div>
+            </div>
+        </div>
+
+        <div class="wrap_section03 section wrap bgcolor_ivory view_pc"></div>
+
+        <div class="wrap_section04 section wrap bgcolor_ivory view_pc"></div>
 
     </div>
 
