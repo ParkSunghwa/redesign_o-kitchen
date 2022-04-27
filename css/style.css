@@ -225,7 +225,6 @@ ul,li{
     padding:calc((100%/1200)*168) calc((100%/1200)*102);
     box-sizing:border-box;
 }
-
 .wrap_fullpage > .wrap_mainvisual > .box_mainvisual > .box_slide .content_slide > .box_cover_layout_text_mainvisual > .box_layout_text_mainvisual > .box_explanation > .explanation{
     display:inline-block;
     font-size:calc((1rem/16)*32);
@@ -273,7 +272,36 @@ ul,li{
     background-image:url("../images/02mainvisual/arrowD_icon.png");
 }
 /* modulation for .box_cover_layout_text_mainvisual end*/
-
+.wrap_fullpage > .wrap_mainvisual > .box_mainvisual > .box_cover_button_page{
+    position:relative;
+}
+.wrap_fullpage > .wrap_mainvisual > .box_mainvisual > .box_cover_button_page > .box_button_page{
+    padding:calc((100%/1200)*8);
+    border-radius:50px;
+    display:inline-flex;
+    justify-content:space-between;
+    align-items: center;
+    background-color:rgba(0,0,0,0.5);
+    position:absolute;
+    right:calc((100%/1280)*142);
+    bottom:5vh ;
+    z-index:999;
+}
+.wrap_fullpage > .wrap_mainvisual > .box_mainvisual > .box_cover_button_page > .box_button_page > .icon{
+    width: 30px;
+    height: 30px;
+    cursor:pointer;
+}
+.wrap_fullpage > .wrap_mainvisual > .box_mainvisual > .box_cover_button_page > .box_button_page > .icon.pause{
+    background-image:url("../images/02mainvisual/icon_pause.png");
+}
+.wrap_fullpage > .wrap_mainvisual > .box_mainvisual > .box_cover_button_page > .box_button_page > .icon.play{
+    background-image:url("../images/02mainvisual/icon_play.png");
+}
+.wrap_fullpage > .wrap_mainvisual > .box_mainvisual > .box_cover_button_page > .box_button_page > .page{
+    margin:0 8px;
+    font-size:calc((1rem/16)*18);
+}
 /* .wrap_mainvisual end */
 
 
@@ -629,7 +657,13 @@ ul,li{
     .wrap_fullpage > .wrap_mainvisual > .box_mainvisual > .box_slide .content_slide > .box_cover_layout_text_mainvisual > .box_layout_text_mainvisual > .box_button > .icon_arrowd{
         width:calc((100vw/1280)*16);
         height:calc((100vw/1280)*8);
-        background-image:url("../images/02mainvisual/arrowD_icon.png");
+    }
+    .wrap_fullpage > .wrap_mainvisual > .box_mainvisual > .box_cover_button_page > .box_button_page > .icon{
+        width:calc((100vw/1280)*30);
+        height:calc((100vw/1280)*30);
+    }
+    .wrap_fullpage > .wrap_mainvisual > .box_mainvisual > .box_cover_button_page > .box_button_page > .page{
+        margin:0 calc((100vw/1280)*8);
     }
 
     /* .wrap_topbar */
