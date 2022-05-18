@@ -65,4 +65,14 @@ $(document).ready(function(){
         };
     });
 
+
+
+
+    // .view_mo
+
+    $(".wrap_fullpage_mo").fullpage({
+
+        navigation:true,
+
+    });
 });
