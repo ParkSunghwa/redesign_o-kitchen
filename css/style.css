@@ -1087,7 +1087,11 @@ ul,li{
     display:block;
     margin:0;
 }
-.view_mo .box_layout_content > .box2depth_layout_content > .box_cover_content > .box_content:last-child{
+.view_mo .box_layout_content > .box2depth_layout_content > .box_cover_content > .box_content.content03{
+    margin-bottom:calc((100%/335)*4);
+}
+.view_mo .box_layout_content > .box2depth_layout_content > .box_cover_content > .box_content.content04{
+    display:none;
     margin-bottom:calc((100%/335)*4);
 }
 .view_mo .box_layout_content > .box2depth_layout_content > .box_cover_content > .box_content > .box_cover_image{
@@ -1149,6 +1153,9 @@ ul,li{
  .wrap_section01_mo > .box_section01 > .box_layout_content > .box2depth_layout_content > .box_cover_content > .box_content.content03 > .box_cover_image > .box_image{
     background-image:url("../images/03section01/image_ramen.jpg");
 }
+.wrap_section01_mo > .box_section01 > .box_layout_content > .box2depth_layout_content > .box_cover_content > .box_content.content04 > .box_cover_image > .box_image{
+    background-image:url("../images/03section01/image_curry.jpg");
+}
  .wrap_section01_mo > .box_section01 > .box_bgdecoration{
     width:calc((100%/335)*200);
     padding-bottom:calc((100%/335)*160);
@@ -1168,6 +1175,9 @@ ul,li{
  .wrap_section02_mo > .box_section02 > .box_layout_content > .box2depth_layout_content > .box_cover_content > .box_content.content03 > .box_cover_image > .box_image{
     background-image:url("../images/04section02/image_soybeansoup.jpg");
 }
+.wrap_section02_mo > .box_section02 > .box_layout_content > .box2depth_layout_content > .box_cover_content > .box_content.content04 > .box_cover_image > .box_image{
+    background-image:url("../images/04section02/image_pasta.jpg");
+}
  .wrap_section02_mo > .box_section02 > .box_bgdecoration{
     width:calc((100%/335)*200);
     padding-bottom:calc((100%/335)*160);
@@ -1186,6 +1196,9 @@ ul,li{
 }
  .wrap_section03_mo > .box_section03 > .box_layout_content > .box2depth_layout_content > .box_cover_content > .box_content.content03 > .box_cover_image > .box_image{
     background-image:url("../images/05section03/image_eggrice.jpg");
+}
+.wrap_section03_mo > .box_section03 > .box_layout_content > .box2depth_layout_content > .box_cover_content > .box_content.content04 > .box_cover_image > .box_image{
+    background-image:url("../images/04section02/image_noodlesoup.jpg");
 }
  .wrap_section03_mo > .box_section03 > .box_bgdecoration{
     width:calc((100%/335)*280);
@@ -1358,6 +1371,15 @@ ul,li{
     }
 
 
+}
+@media screen and (max-aspect-ratio:1/2){
+
+    .view_mo .box_layout_content > .box2depth_layout_content > .box_cover_content > .box_content.content03{
+        margin-bottom:0;
+    }
+    .view_mo .box_layout_content > .box2depth_layout_content > .box_cover_content > .box_content.content04{
+        display:block;
+    }
 }
 /* mediaquery end */
 
