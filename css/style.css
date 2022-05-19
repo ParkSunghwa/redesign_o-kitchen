@@ -1372,7 +1372,7 @@ ul,li{
 
 
 }
-@media screen and (max-aspect-ratio:1/2){
+@media screen and (max-aspect-ratio:2/3){
 
     .view_mo .box_layout_content > .box2depth_layout_content > .box_cover_content > .box_content.content03{
         margin-bottom:0;
