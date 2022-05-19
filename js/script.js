@@ -30,16 +30,16 @@ $(document).ready(function(){
 
     // swiper-slide for .wrap_fullpage > .wrap_mainvisual > .box_mainvisual > .box_slide
 
-    const swiper = new Swiper(".swiper", {
+    const swiper = new Swiper(".view_pc .swiper", {
 
         loop:true,
         pagination:{
-            el: ".swiper-pagination",
+            el: ".view_pc .swiper-pagination",
             type:"fraction",
         },
         navigation:{
-            nextEl:".swiper-button-next",
-            prevEl:".swiper-button-prev",
+            nextEl:".view_pc .swiper-button-next",
+            prevEl:".view_pc .swiper-button-prev",
         },
         autoplay:{
             delay:5000,
@@ -49,6 +49,28 @@ $(document).ready(function(){
         swiper.autoplay.stop();
     });
     $(".wrap_fullpage > .wrap_mainvisual > .box_mainvisual > .box_layout_slide > .box_button_page > .icon.play").click(function(){
+        swiper.autoplay.start();
+    });
+
+    const swiper_mo = new Swiper(".view_mo .swiper", {
+
+        loop:true,
+        pagination:{
+            el: ".view_mo .swiper-pagination",
+            type:"fraction",
+        },
+        navigation:{
+            nextEl:".view_mo .swiper-button-next",
+            prevEl:".view_mo .swiper-button-prev",
+        },
+        autoplay:{
+            delay:5000,
+        },
+    });
+    $(".wrap_fullpage > .wrap_mainvisual_mo > .box_mainvisual > .box_layout_slide > .box_button_page > .icon.pause").click(function(){
+        swiper.autoplay.stop();
+    });
+    $(".wrap_fullpage > .wrap_mainvisual_mo > .box_mainvisual > .box_layout_slide > .box_button_page > .icon.play").click(function(){
         swiper.autoplay.start();
     });
 
@@ -66,13 +88,4 @@ $(document).ready(function(){
     });
 
 
-
-
-    // .view_mo
-
-    $(".wrap_fullpage_mo").fullpage({
-
-        navigation:true,
-
-    });
 });
