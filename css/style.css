@@ -1380,6 +1380,12 @@ ul,li{
     .view_mo .box_layout_content > .box2depth_layout_content > .box_cover_content > .box_content.content04{
         display:block;
     }
+    .view_mo .box_layout_content > .box2depth_layout_content > .box_cover_content > .box_content > .box_cover_image > .box_image{
+        padding-bottom:calc((100%/264)*192);
+    }
+    .view_mo .box_layout_content > .box2depth_layout_content > .box_cover_content > .box_content > .box_text{
+        padding-bottom:calc((100%/588)*192);
+    }
 }
 /* mediaquery end */
 
